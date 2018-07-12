@@ -114,7 +114,8 @@ public class GameTest {
         //when
         //then
         assertThat(guess.getResult(), is("4A0B"));
-
+        //add
+        guess.getInputAnswer();
     }
 
     @Test
