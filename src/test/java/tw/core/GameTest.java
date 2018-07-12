@@ -16,6 +16,7 @@ import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
 
 public class GameTest {
@@ -33,7 +34,9 @@ public class GameTest {
 
     @Test
     public void should_return_continue_when_input_times_smaller_than_MAX_TIMES(){
-        Answer actualAnswer = Answer.createAnswer("1 5 3 4");
+        //Answer actualAnswer = Answer.createAnswer("1 5 3 4");
+        Answer actualAnswer = mock(Answer.class);
+        when(actualAnswer.createAnswer("1 5 3 4")).thenReturn(actualAnswer);
         try{
             game.guess(actualAnswer);
         }catch (OutOfGuessCountException e){
@@ -90,6 +93,7 @@ public class GameTest {
         Answer actualAnswer = Answer.createAnswer("11 2 3 4");
         try{
             actualAnswer.validate();
+            verify(actualAnswer).validate();
         }catch (AnswerFormatIncorrectException e){
             System.out.println("The number is too big!\n"+actualAnswer.toString());
         }
@@ -127,8 +131,10 @@ public class GameTest {
 
         }
         AnswerGenerator answerGenerator = new AnswerGenerator(r);
+        AnswerGenerator answerGenerator11 = mock(AnswerGenerator.class);
         try {
             answerGenerator.generate();
+            when(answerGenerator11.generate()).thenReturn(actualAnswer);
         }catch (AnswerFormatIncorrectException e){
 
         }
