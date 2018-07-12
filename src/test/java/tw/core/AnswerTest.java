@@ -28,12 +28,22 @@ public class AnswerTest {
     }
 
     @Test
-    public void should_pass_valifdate_when_input_is_2413(){
+    public void should_pass_validate_when_input_is_1324(){
         Answer input = Answer.createAnswer("1 3 2 4");
         try {
             input.validate();
         }catch (AnswerFormatIncorrectException e){
             System.out.println("It should not throw exception!!");
+        }
+    }
+
+    @Test
+    public void should_failed_when_input_is_10413(){
+        Answer input = Answer.createAnswer("10 4 1 3");
+        try {
+            input.validate();
+        }catch (AnswerFormatIncorrectException e){
+            System.out.println("It should throw exception!!");
         }
     }
 
