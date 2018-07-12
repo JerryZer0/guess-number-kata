@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import tw.core.exception.AnswerFormatIncorrectException;
 import tw.core.exception.OutOfGuessCountException;
 import tw.core.generator.AnswerGenerator;
+import tw.core.generator.RandomIntGenerator;
 import tw.core.model.GuessResult;
 
 import java.util.ArrayList;
@@ -114,6 +115,22 @@ public class GameTest {
         //then
         assertThat(guess.getResult(), is("4A0B"));
 
+    }
+
+    @Test
+    public void use_AnswerGenerator(){
+        RandomIntGenerator r = new RandomIntGenerator();
+        try {
+            r.generateNums(11,12);
+        }catch (IllegalArgumentException e){
+
+        }
+        AnswerGenerator answerGenerator = new AnswerGenerator(r);
+        try {
+            answerGenerator.generate();
+        }catch (AnswerFormatIncorrectException e){
+
+        }
     }
 
 
