@@ -21,6 +21,7 @@ public class GameTest {
 
     private final Answer actualAnswer = Answer.createAnswer("1 2 3 4");
     private Game game;
+    private GameStatus gameStatus = new GameStatus();
 
     @BeforeEach
     public void setUp() throws Exception {
@@ -68,6 +69,7 @@ public class GameTest {
             game.guess(actualAnswer);
             game.guess(actualAnswer);
         }catch (OutOfGuessCountException e){
+            game.guessHistory();
             System.out.println("Try to many times");
         }
     }
@@ -88,7 +90,7 @@ public class GameTest {
         try{
             actualAnswer.validate();
         }catch (AnswerFormatIncorrectException e){
-            System.out.println("The number is too big!");
+            System.out.println("The number is too big!\n"+actualAnswer.toString());
         }
     }
 

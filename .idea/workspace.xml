@@ -21,9 +21,12 @@
     <SUITE FILE_PATH="coverage/guess_number_kata$AnswerTest_should_return_answer_with_numberList_init_given_1324.ic" NAME="AnswerTest.should_return_answer_with_numberList_init_given_1324 Coverage Results" MODIFIED="1531388267932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/guess_number_kata$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1531399264250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/guess_number_kata$GameTest.ic" NAME="GameTest Coverage Results" MODIFIED="1531399572245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>tw.core.*</FILTER>
     </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollToSource" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -52,8 +55,17 @@
       <file leaf-file-name="GameTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="96" column="52" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+            <state relative-caret-position="220">
+              <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/GameStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -61,7 +73,7 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
+            <state relative-caret-position="-187">
               <caret line="29" column="64" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="64" />
             </state>
           </provider>
@@ -79,24 +91,11 @@
       <file leaf-file-name="Game.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+            <state relative-caret-position="660">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="41" />
               <folding>
                 <element signature="e#1417#1418#0" expanded="true" />
                 <element signature="e#1475#1476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AnswerGenerator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/generator/AnswerGenerator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="18" column="62" lean-forward="true" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
-              <folding>
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -742,24 +741,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameTest_should_return_fail_when_input_times_bigger_than_MAX_TIMES - 2018.07.12 at 20h 30m 53s.xml">
-      <configuration name="GameTest.should_return_fail_when_input_times_bigger_than_MAX_TIMES" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2018.07.12 at 20h 31m 03s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest_should_return_fail_when_input_times_is_MAX_TIMES - 2018.07.12 at 20h 32m 04s.xml">
-      <configuration name="GameTest.should_return_fail_when_input_times_is_MAX_TIMES" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2018.07.12 at 20h 32m 10s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2018.07.12 at 20h 32m 17s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2018.07.12 at 20h 33m 26s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GameTest - 2018.07.12 at 20h 34m 29s.xml">
       <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
@@ -770,6 +751,24 @@
       <configuration name="GameTest.should_throw_exception_when_input_bigger_than_10" configurationId="JUnit" />
     </history-entry>
     <history-entry file="GameTest - 2018.07.12 at 20h 39m 55s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest_should_not_throw_exception_when_input_is_right - 2018.07.12 at 20h 40m 59s.xml">
+      <configuration name="GameTest.should_not_throw_exception_when_input_is_right" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.07.12 at 20h 41m 05s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.07.12 at 20h 42m 48s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.07.12 at 20h 44m 10s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.07.12 at 20h 45m 17s.xml">
+      <configuration name="GameTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GameTest - 2018.07.12 at 20h 45m 58s.xml">
       <configuration name="GameTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -915,17 +914,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/generator/RandomIntGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        <state relative-caret-position="242">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/GameStatus.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-187">
+          <caret line="29" column="64" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/generator/RandomIntGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -940,17 +946,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/GuessResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="31" column="61" selection-start-line="31" selection-start-column="61" selection-end-line="31" selection-end-column="61" />
+        <state relative-caret-position="660">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="41" />
           <folding>
             <element signature="e#1417#1418#0" expanded="true" />
             <element signature="e#1475#1476#0" expanded="true" />
@@ -958,17 +957,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/GameStatus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="29" column="64" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="64" />
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/GameTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="96" column="52" selection-start-line="96" selection-start-column="52" selection-end-line="96" selection-end-column="52" />
+        <state relative-caret-position="220">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
         </state>
       </provider>
     </entry>
