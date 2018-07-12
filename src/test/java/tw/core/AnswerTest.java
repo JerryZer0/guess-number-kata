@@ -44,4 +44,8 @@ public class AnswerTest {
         assertThat(actualAnswer.getIndexOfNum("2"),is(1));
     }
 
+    @Test
+    public void should_return_the_String_of_acturalAnswer(){
+        assertThat(actualAnswer.toString(),is("1 2 3 4"));
+    }
 }

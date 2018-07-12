@@ -24,8 +24,8 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="54" column="28" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="28" />
+            <state relative-caret-position="419">
+              <caret line="59" column="26" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -50,14 +50,16 @@
       <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="43" column="48" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="48" />
+            <state relative-caret-position="485">
+              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
                 <element signature="e#1127#1128#0" expanded="true" />
                 <element signature="e#1191#1192#0" expanded="true" />
+                <element signature="e#1255#1256#0" expanded="true" />
+                <element signature="e#1320#1321#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -613,7 +615,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="AnswerTest.should_return_the_collect_from_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AnswerTest.should_return_the_String_of_acturalAnswer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
         <pattern>
@@ -625,7 +627,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_return_the_collect_from_String" />
+      <option name="METHOD_NAME" value="should_return_the_String_of_acturalAnswer" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -676,18 +678,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.AnswerTest.should_return_2A2B" />
-      <item itemvalue="JUnit.AnswerTest.should_return_the_collect_from_String" />
       <item itemvalue="JUnit.AnswerTest.should_return_1_given_index_of_1" />
       <item itemvalue="JUnit.AnswerTest.should_return_1_given_index_of_2" />
       <item itemvalue="JUnit.AnswerTest" />
+      <item itemvalue="JUnit.AnswerTest.should_return_the_String_of_acturalAnswer" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AnswerTest" />
+        <item itemvalue="JUnit.AnswerTest.should_return_the_String_of_acturalAnswer" />
         <item itemvalue="JUnit.AnswerTest.should_return_1_given_index_of_2" />
         <item itemvalue="JUnit.AnswerTest.should_return_1_given_index_of_1" />
         <item itemvalue="JUnit.AnswerTest.should_return_2A2B" />
-        <item itemvalue="JUnit.AnswerTest.should_return_the_collect_from_String" />
       </list>
     </recent_temporary>
   </component>
@@ -705,12 +707,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GameTest_should_get_the_success_status_when_guess_input_is_correct - 2018.07.12 at 15h 04m 26s.xml">
-      <configuration name="GameTest.should_get_the_success_status_when_guess_input_is_correct" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GameTest - 2018.07.12 at 15h 04m 32s.xml">
-      <configuration name="GameTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnswerTest_should_return_2A2B - 2018.07.12 at 15h 50m 13s.xml">
       <configuration name="AnswerTest.should_return_2A2B" configurationId="JUnit" />
     </history-entry>
@@ -734,6 +730,12 @@
     </history-entry>
     <history-entry file="AnswerTest_should_return_1_given_index_of_2 - 2018.07.12 at 17h 15m 03s.xml">
       <configuration name="AnswerTest.should_return_1_given_index_of_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_return_1_given_index_of_2 - 2018.07.12 at 17h 15m 13s.xml">
+      <configuration name="AnswerTest.should_return_1_given_index_of_2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest - 2018.07.12 at 17h 15m 19s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -866,21 +868,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="54" column="28" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="28" />
+        <state relative-caret-position="419">
+          <caret line="59" column="26" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="43" column="48" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="48" />
+        <state relative-caret-position="485">
+          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
             <element signature="e#1127#1128#0" expanded="true" />
             <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1255#1256#0" expanded="true" />
+            <element signature="e#1320#1321#0" expanded="true" />
           </folding>
         </state>
       </provider>
