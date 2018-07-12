@@ -4,15 +4,7 @@ package tw.core;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import tw.core.exception.AnswerFormatIncorrectException;
-import tw.core.model.Record;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
-
-import static com.sun.javaws.JnlpxArgs.verify;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
@@ -25,6 +17,11 @@ public class AnswerTest {
     @BeforeEach
     public void setUp() {
         actualAnswer = Answer.createAnswer("1 2 3 4");
+    }
+
+    @Test
+    public void should_return_answer_with_numberList_init_given_1324(){
+        assertThat(actualAnswer.toString(),is("1 2 3 4"));
     }
 
     @Test
