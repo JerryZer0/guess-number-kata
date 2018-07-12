@@ -4,6 +4,7 @@ package tw.core;/*
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tw.core.exception.AnswerFormatIncorrectException;
 import tw.core.exception.OutOfGuessCountException;
 import tw.core.generator.AnswerGenerator;
 import tw.core.model.GuessResult;
@@ -28,15 +29,6 @@ public class GameTest {
         game = new Game(answerGenerator);
     }
 
-//    @Test
-//    public void should_return_FAIL_when_input_times_bigger_than_MAX_TIMES(){
-//        GuessResult guessResult = new GuessResult("4A0B",actualAnswer);
-//        List<GuessResult> guessResults = new ArrayList<>();
-//        guessResults.add(guessResult);
-//         assertThat(game.ch);
-//
-//    }
-
     @Test
     public void should_return_continue_when_input_times_smaller_than_MAX_TIMES(){
         Answer actualAnswer = Answer.createAnswer("1 5 3 4");
@@ -45,6 +37,23 @@ public class GameTest {
         }catch (OutOfGuessCountException e){
         }
         assertThat(game.checkStatus(),is("continue"));
+    }
+
+    @Test
+    public void should_return_fail_when_input_times_is_MAX_TIMES(){
+        Answer actualAnswer = Answer.createAnswer("1 5 3 4");
+        Answer actualAnswer2 = Answer.createAnswer("1 1 3 4");
+        Answer actualAnswer3 = Answer.createAnswer("2 1 3 4");
+        try{
+            game.guess(actualAnswer);
+            game.guess(actualAnswer2);
+            game.guess(actualAnswer3);
+            game.guess(actualAnswer);
+            game.guess(actualAnswer2);
+            game.guess(actualAnswer);
+        }catch (OutOfGuessCountException e){
+        }
+        assertThat(game.checkStatus(),is("fail"));
     }
 
     @Test
@@ -57,10 +66,12 @@ public class GameTest {
             game.guess(actualAnswer);
             game.guess(actualAnswer);
             game.guess(actualAnswer);
+            game.guess(actualAnswer);
         }catch (OutOfGuessCountException e){
+            System.out.println("Try to many times");
         }
-        assertThat(game.checkStatus(),is("fail"));
     }
+
     @Test
     public void should_return_success_when_input_times_bigger_than_MAX_TIMES(){
         Answer actualAnswer = Answer.createAnswer("1 2 3 4");
@@ -69,6 +80,26 @@ public class GameTest {
         }catch (OutOfGuessCountException e){
         }
         assertThat(game.checkStatus(),is("success"));
+    }
+
+    @Test
+    public void should_throw_exception_when_input_bigger_than_10(){
+        Answer actualAnswer = Answer.createAnswer("11 2 3 4");
+        try{
+            actualAnswer.validate();
+        }catch (AnswerFormatIncorrectException e){
+            System.out.println("The number is too big!");
+        }
+    }
+
+    @Test
+    public void should_not_throw_exception_when_input_is_right(){
+        Answer actualAnswer = Answer.createAnswer("1 2 3 4");
+        try{
+            actualAnswer.validate();
+        }catch (AnswerFormatIncorrectException e){
+            System.out.println("The number is too big!");
+        }
     }
 
     @Test
