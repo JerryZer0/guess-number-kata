@@ -3,6 +3,7 @@ package tw.core;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import tw.core.exception.AnswerFormatIncorrectException;
 import tw.core.model.Record;
 
 import java.util.ArrayList;
@@ -26,12 +27,15 @@ public class AnswerTest {
         actualAnswer = Answer.createAnswer("1 2 3 4");
     }
 
-//    @Test
-//    public void should_return_the_collect_from_String(){
-//        Integer input[] = new Integer[]{1, 2, 3, 4};
-//        System.err.println(Answer.createAnswer("1 2 3 4"));
-//        assertThat(Answer.createAnswer("1 2 3 4"),is(input));
-//    }
+    @Test
+    public void should_pass_valifdate_when_input_is_2413(){
+        Answer input = Answer.createAnswer("1 3 2 4");
+        try {
+            input.validate();
+        }catch (AnswerFormatIncorrectException e){
+            System.out.println("It should not throw exception!!");
+        }
+    }
 
     @Test
     public void should_return_2A2B_given_1324(){

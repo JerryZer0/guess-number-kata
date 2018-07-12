@@ -24,25 +24,8 @@
       <file leaf-file-name="Answer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="419">
-              <caret line="59" column="26" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Record.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/model/Record.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="17" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="17" />
-              <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="397">
+              <caret line="35" column="52" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -50,16 +33,16 @@
       <file leaf-file-name="AnswerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+            <state relative-caret-position="331">
+              <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#205#206#0" expanded="true" />
                 <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1191#1192#0" expanded="true" />
-                <element signature="e#1255#1256#0" expanded="true" />
-                <element signature="e#1320#1321#0" expanded="true" />
+                <element signature="e#1010#1011#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
+                <element signature="e#1147#1148#0" expanded="true" />
+                <element signature="e#1212#1213#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -546,6 +529,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AnswerTest.should_pass_valifdate_when_input_is_2413" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd-java-base_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tw.core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.core" />
+      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
+      <option name="METHOD_NAME" value="should_pass_valifdate_when_input_is_2413" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="AnswerTest.should_return_1_given_index_of_1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd-java-base_test" />
       <extension name="coverage">
@@ -582,29 +588,6 @@
       <option name="PACKAGE_NAME" value="tw.core" />
       <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
       <option name="METHOD_NAME" value="should_return_1_given_index_of_2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="AnswerTest.should_return_2A2B" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd-java-base_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tw.core.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="tw.core" />
-      <option name="MAIN_CLASS_NAME" value="tw.core.AnswerTest" />
-      <option name="METHOD_NAME" value="should_return_2A2B" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -677,19 +660,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.AnswerTest.should_return_2A2B" />
       <item itemvalue="JUnit.AnswerTest.should_return_1_given_index_of_1" />
       <item itemvalue="JUnit.AnswerTest.should_return_1_given_index_of_2" />
       <item itemvalue="JUnit.AnswerTest" />
       <item itemvalue="JUnit.AnswerTest.should_return_the_String_of_acturalAnswer" />
+      <item itemvalue="JUnit.AnswerTest.should_pass_valifdate_when_input_is_2413" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.AnswerTest" />
+        <item itemvalue="JUnit.AnswerTest.should_pass_valifdate_when_input_is_2413" />
         <item itemvalue="JUnit.AnswerTest.should_return_the_String_of_acturalAnswer" />
         <item itemvalue="JUnit.AnswerTest.should_return_1_given_index_of_2" />
         <item itemvalue="JUnit.AnswerTest.should_return_1_given_index_of_1" />
-        <item itemvalue="JUnit.AnswerTest.should_return_2A2B" />
       </list>
     </recent_temporary>
   </component>
@@ -707,12 +690,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AnswerTest_should_return_2A2B - 2018.07.12 at 15h 50m 13s.xml">
-      <configuration name="AnswerTest.should_return_2A2B" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AnswerTest_should_return_the_collect_from_String - 2018.07.12 at 16h 54m 47s.xml">
-      <configuration name="AnswerTest.should_return_the_collect_from_String" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AnswerTest_should_return_2A2B - 2018.07.12 at 17h 02m 40s.xml">
       <configuration name="AnswerTest.should_return_2A2B" configurationId="JUnit" />
     </history-entry>
@@ -735,6 +712,12 @@
       <configuration name="AnswerTest.should_return_1_given_index_of_2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="AnswerTest - 2018.07.12 at 17h 15m 19s.xml">
+      <configuration name="AnswerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest_should_return_the_String_of_acturalAnswer - 2018.07.12 at 17h 17m 19s.xml">
+      <configuration name="AnswerTest.should_return_the_String_of_acturalAnswer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnswerTest - 2018.07.12 at 17h 17m 23s.xml">
       <configuration name="AnswerTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -868,23 +851,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tw/core/Answer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="26" />
+        <state relative-caret-position="397">
+          <caret line="35" column="52" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tw/core/AnswerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
+        <state relative-caret-position="331">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#205#206#0" expanded="true" />
             <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1191#1192#0" expanded="true" />
-            <element signature="e#1255#1256#0" expanded="true" />
-            <element signature="e#1320#1321#0" expanded="true" />
+            <element signature="e#1010#1011#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
           </folding>
         </state>
       </provider>
