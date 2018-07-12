@@ -34,9 +34,14 @@ public class AnswerTest {
 //    }
 
     @Test
-    public void should_return_2A2B(){
+    public void should_return_2A2B_given_1324(){
         Answer input = Answer.createAnswer("1 3 2 4");
         assertThat(actualAnswer.check(input).getValue(),is("2A2B"));
+    }
+
+    @Test
+    public void should_return_1_given_index_of_2(){
+        assertThat(actualAnswer.getIndexOfNum("2"),is(1));
     }
 
 }
